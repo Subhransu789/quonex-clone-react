@@ -1,0 +1,38 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 60px 20px;
+  background-color: #f5fbfa;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  text-align: center;
+  max-width: 240px;
+}
+
+.contact-icon {
+  background-color: #eaf5f3;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #0a4a6e;
+}
+
+.contact-card h4 {
+  margin: 8px 0 6px;
+  font-size: 16px;
+  color: #002244;
+}
+
+.contact-card p {
+  font-size: 14px;
+  color: #444;
+  white-space: pre-line; /* keeps address formatting */
+}

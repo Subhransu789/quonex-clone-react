@@ -1,0 +1,84 @@
+/* Container styling */
+.team-container {
+  background-color: #f1f9f7;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: #0a4a6e;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Grid layout */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Card styles */
+.team-card {
+  position: relative;
+  width: 180px;
+  height: 260px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  transition: transform 0.3s;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+/* Image styling */
+.team-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Name + Title */
+.team-info {
+  padding: 10px;
+  background-color: white;
+}
+
+.team-info h3 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #0d0d0d;
+}
+
+.team-info p {
+  font-size: 13px;
+  color: #666;
+}
+
+/* Hover overlay */
+.team-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 10, 10, 0.8);
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 13px;
+}
+
+.team-card:hover .team-hover {
+  opacity: 3;
+}

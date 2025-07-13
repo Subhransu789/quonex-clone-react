@@ -1,0 +1,27 @@
+.about-section{
+    background: url('/background-img.jpg')no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.about-card{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0px 4px 30px rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+}
+.about-card h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #111;
+}
+.about-card p{
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}

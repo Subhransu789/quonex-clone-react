@@ -1,0 +1,41 @@
+.women-led-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #f8fbf9;
+    gap: 20px;
+}
+.women-led-text{
+    flex: 1;
+    min-width: 350px;
+}
+.women-led-text h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+}
+.women-led-text ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.women-led-text li{
+    margin-bottom: 12px;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.women-led-images{
+    flex: 1;
+    min-width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.women-led-images img{
+    width: 90%;
+    height: 18vw;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+

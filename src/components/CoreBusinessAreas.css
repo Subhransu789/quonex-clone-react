@@ -1,0 +1,46 @@
+.core-container {
+  padding: 50px 20px;
+  background-color: #f3f9f3;
+  text-align: center;
+}
+
+.core-header h2 {
+  font-size: 2.5rem;
+  color: #001f3f;
+  margin-bottom: 10px;
+}
+
+.core-header p {
+  font-size: 1rem;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.core-grid {
+  display: flex;
+ flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 20px;
+}
+
+.core-card {
+  position: relative;
+  width: 310px;
+  height: 250px;
+  background-size: contain;
+  background-position: center;
+ border-radius: 15px;
+ overflow: hidden;
+}
+
+.core-overlay {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  color: white;
+  width: 90%;
+  padding: 15px;
+  font-weight: bold;
+  
+}

@@ -1,0 +1,53 @@
+.header {
+  position: fixed; /*  This makes it stick to the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /*  Keeps it above all content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  height: 12vh;
+}
+.logo img {
+  height: 70px;
+  padding: 2px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 1.7rem;
+  font-weight: 500;
+  margin: 0;
+  transition: border-color .3s ease, color .3s ease;
+  list-style-type: disc;
+
+}
+
+.nav-links li {
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  display: list-item;
+  
+
+}
+
+.contact {
+    font-weight: bold;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  gap: 1.5rem;
+}
+.nav-links li:hover{
+    color: #0840ea;
+   
+}
+.nav-links ul :hover{
+  text-decoration: underline;
+  color: red;
+}
