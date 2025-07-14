@@ -18,15 +18,3 @@ This is a fully responsive clone of the **Quenox Website**, built using **React.
 - **Git & GitHub**
 - ## 🧑‍💻 How to Run Locally
 
-```bash
-git clone https://github.com/Subhransu789/quenox-clone-react.git
-cd quenox-clone-react
-npm install
-npm start
-
-## 🙋‍♂️ Author
-
-**Subhransu Sekhar Nayak**  
-📧 [subhransusekharnayak832@gmail.com](mailto:subhransusekharnayak832@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/subhransusekharnayak)  
-🔗 [GitHub](https://github.com/Subhransu789)
