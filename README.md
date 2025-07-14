@@ -16,5 +16,5 @@ This is a fully responsive clone of the **Quenox Website**, built using **React.
 - **JavaScript (ES6)**
 - **VS Code**
 - **Git & GitHub**
-- ## 🧑‍💻 How to Run Locally
+
 
